@@ -16,6 +16,10 @@
 		2E32781623CD8C6D0069A9DE /* UserDefultsLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32781523CD8C6D0069A9DE /* UserDefultsLabTests.swift */; };
 		2E32782123CD9F2F0069A9DE /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32782023CD9F2F0069A9DE /* UserDefaults.swift */; };
 		2E32782323CDA0D20069A9DE /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32782223CDA0D20069A9DE /* AppError.swift */; };
+		2E32782523CDA1630069A9DE /* HorscopeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32782423CDA1630069A9DE /* HorscopeApi.swift */; };
+		2E32782723CDA19C0069A9DE /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32782623CDA19C0069A9DE /* NetworkHelper.swift */; };
+		2E32782923CDA1CB0069A9DE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32782823CDA1CB0069A9DE /* Model.swift */; };
+		2E32786223CE312B0069A9DE /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		2E32781723CD8C6D0069A9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E32782023CD9F2F0069A9DE /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		2E32782223CDA0D20069A9DE /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		2E32782423CDA1630069A9DE /* HorscopeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorscopeApi.swift; sourceTree = "<group>"; };
+		2E32782623CDA19C0069A9DE /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		2E32782823CDA1CB0069A9DE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +91,14 @@
 		2E3277FD23CD8C6A0069A9DE /* UserDefultsLab */ = {
 			isa = PBXGroup;
 			children = (
+				2E32782623CDA19C0069A9DE /* NetworkHelper.swift */,
+				2E32782223CDA0D20069A9DE /* AppError.swift */,
+				2E32782423CDA1630069A9DE /* HorscopeApi.swift */,
 				2E3277FE23CD8C6A0069A9DE /* AppDelegate.swift */,
 				2E32780023CD8C6A0069A9DE /* SceneDelegate.swift */,
-				2E32782223CDA0D20069A9DE /* AppError.swift */,
+				2E32782823CDA1CB0069A9DE /* Model.swift */,
 				2E32780223CD8C6A0069A9DE /* ViewController.swift */,
+				2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */,
 				2E32782023CD9F2F0069A9DE /* UserDefaults.swift */,
 				2E32780423CD8C6A0069A9DE /* Main.storyboard */,
 				2E32780723CD8C6C0069A9DE /* Assets.xcassets */,
@@ -206,11 +218,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E32786223CE312B0069A9DE /* UIViewController+Extension.swift in Sources */,
+				2E32782723CDA19C0069A9DE /* NetworkHelper.swift in Sources */,
 				2E32782123CD9F2F0069A9DE /* UserDefaults.swift in Sources */,
+				2E32782523CDA1630069A9DE /* HorscopeApi.swift in Sources */,
 				2E32780323CD8C6A0069A9DE /* ViewController.swift in Sources */,
 				2E32782323CDA0D20069A9DE /* AppError.swift in Sources */,
 				2E3277FF23CD8C6A0069A9DE /* AppDelegate.swift in Sources */,
 				2E32780123CD8C6A0069A9DE /* SceneDelegate.swift in Sources */,
+				2E32782923CDA1CB0069A9DE /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
