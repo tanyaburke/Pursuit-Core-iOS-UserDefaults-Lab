@@ -10,7 +10,7 @@ import Foundation
 
 
 struct HoroscopeAPIClient {
-    static func getHoroscope (horoscope: horoscope completion: @escaping (Result<[HoroscopeSign], AppError>)->()){
+    static func getHoroscope (horoscope: String, completion: @escaping (Result<[HoroscopeSign], AppError>)->()){
         let endPointUrl = "http://sandipbgt.com/theastrologer/api/horoscope/\(horoscope)/today"
         guard let url = URL(string: endPointUrl) else {
             completion(.failure(.badURL(endPointUrl)))
@@ -34,13 +34,14 @@ struct HoroscopeAPIClient {
 }
 
 
-func setHoroscope()-> String{
+//func setHoroscope()-> String{
   
 //    switch UserPreferences.birthdaay
 //    
 //    case Date(March 21 – April 19): 
 //    Aries dates
-//    Taurus dates: April 20 – May 20
+//    Taurus dates: April 20\(year) – May 20\(year)
+    
 //    Gemini dates: May 21 – June 20
 //    Cancer dates: June 21 – July 22
 //    Leo dates: July 22 – August 22
@@ -58,5 +59,7 @@ func setHoroscope()-> String{
 //    let startDate = Date().addingTimeInterval(-1000)
 //    let endDate = Date().addingTimeInterval(1000)
 //    let dateRange = startDate...endDate
-    
-}
+//    if dateRange.contains(testDate) {
+//        print("Inside the range")
+//    }
+

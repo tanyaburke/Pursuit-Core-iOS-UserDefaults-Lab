@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E23DB7D23D0CC1400947F9E /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23DB7C23D0CC1400947F9E /* Horoscope.swift */; };
+		2E23DB7F23D0D12400947F9E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E23DB7E23D0D12400947F9E /* DetailViewController.swift */; };
 		2E3277FF23CD8C6A0069A9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3277FE23CD8C6A0069A9DE /* AppDelegate.swift */; };
 		2E32780123CD8C6A0069A9DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32780023CD8C6A0069A9DE /* SceneDelegate.swift */; };
 		2E32780323CD8C6A0069A9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32780223CD8C6A0069A9DE /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 		2E32782723CDA19C0069A9DE /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32782623CDA19C0069A9DE /* NetworkHelper.swift */; };
 		2E32782923CDA1CB0069A9DE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32782823CDA1CB0069A9DE /* Model.swift */; };
 		2E32786223CE312B0069A9DE /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */; };
+		2E3D07C123CE5B2000E0C4FB /* horoscopes.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D07C023CE5B2000E0C4FB /* horoscopes.gif */; };
+		2E3D07C323CE5C8900E0C4FB /* UIImage+GIFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D07C223CE5C8900E0C4FB /* UIImage+GIFExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E23DB7C23D0CC1400947F9E /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
+		2E23DB7E23D0D12400947F9E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2E3277FB23CD8C6A0069A9DE /* UserDefultsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefultsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3277FE23CD8C6A0069A9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E32780023CD8C6A0069A9DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +56,8 @@
 		2E32782623CDA19C0069A9DE /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		2E32782823CDA1CB0069A9DE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		2E3D07C023CE5B2000E0C4FB /* horoscopes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = horoscopes.gif; sourceTree = "<group>"; };
+		2E3D07C223CE5C8900E0C4FB /* UIImage+GIFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+GIFExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +102,16 @@
 				2E32782623CDA19C0069A9DE /* NetworkHelper.swift */,
 				2E32782223CDA0D20069A9DE /* AppError.swift */,
 				2E32782423CDA1630069A9DE /* HorscopeApi.swift */,
+				2E3D07C223CE5C8900E0C4FB /* UIImage+GIFExtension.swift */,
+				2E23DB7C23D0CC1400947F9E /* Horoscope.swift */,
 				2E3277FE23CD8C6A0069A9DE /* AppDelegate.swift */,
 				2E32780023CD8C6A0069A9DE /* SceneDelegate.swift */,
 				2E32782823CDA1CB0069A9DE /* Model.swift */,
 				2E32780223CD8C6A0069A9DE /* ViewController.swift */,
+				2E23DB7E23D0D12400947F9E /* DetailViewController.swift */,
 				2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */,
 				2E32782023CD9F2F0069A9DE /* UserDefaults.swift */,
+				2E3D07C023CE5B2000E0C4FB /* horoscopes.gif */,
 				2E32780423CD8C6A0069A9DE /* Main.storyboard */,
 				2E32780723CD8C6C0069A9DE /* Assets.xcassets */,
 				2E32780923CD8C6C0069A9DE /* LaunchScreen.storyboard */,
@@ -201,6 +213,7 @@
 				2E32780B23CD8C6C0069A9DE /* LaunchScreen.storyboard in Resources */,
 				2E32780823CD8C6C0069A9DE /* Assets.xcassets in Resources */,
 				2E32780623CD8C6A0069A9DE /* Main.storyboard in Resources */,
+				2E3D07C123CE5B2000E0C4FB /* horoscopes.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,9 +234,12 @@
 				2E32786223CE312B0069A9DE /* UIViewController+Extension.swift in Sources */,
 				2E32782723CDA19C0069A9DE /* NetworkHelper.swift in Sources */,
 				2E32782123CD9F2F0069A9DE /* UserDefaults.swift in Sources */,
+				2E23DB7F23D0D12400947F9E /* DetailViewController.swift in Sources */,
 				2E32782523CDA1630069A9DE /* HorscopeApi.swift in Sources */,
 				2E32780323CD8C6A0069A9DE /* ViewController.swift in Sources */,
+				2E23DB7D23D0CC1400947F9E /* Horoscope.swift in Sources */,
 				2E32782323CDA0D20069A9DE /* AppError.swift in Sources */,
+				2E3D07C323CE5C8900E0C4FB /* UIImage+GIFExtension.swift in Sources */,
 				2E3277FF23CD8C6A0069A9DE /* AppDelegate.swift in Sources */,
 				2E32780123CD8C6A0069A9DE /* SceneDelegate.swift in Sources */,
 				2E32782923CDA1CB0069A9DE /* Model.swift in Sources */,
