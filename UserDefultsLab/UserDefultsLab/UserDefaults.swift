@@ -31,7 +31,7 @@ class UserPreferences{
         return name
     }
     
-    func storeHoroscope (with horoscope: Int) {
+    func storeHoroscope (with horoscope: String) {
         standard.set(horoscope, forKey: UserPrefenceKey.horoscopes)
     }
     

@@ -99,19 +99,14 @@
 		2E3277FD23CD8C6A0069A9DE /* UserDefultsLab */ = {
 			isa = PBXGroup;
 			children = (
-				2E32782623CDA19C0069A9DE /* NetworkHelper.swift */,
-				2E32782223CDA0D20069A9DE /* AppError.swift */,
-				2E32782423CDA1630069A9DE /* HorscopeApi.swift */,
-				2E3D07C223CE5C8900E0C4FB /* UIImage+GIFExtension.swift */,
-				2E23DB7C23D0CC1400947F9E /* Horoscope.swift */,
+				2E32782023CD9F2F0069A9DE /* UserDefaults.swift */,
+				2E8171AE23D0E2CF005BCA35 /* Network */,
+				2E8171AF23D0E318005BCA35 /* Model&Structs */,
+				2E8171B023D0E355005BCA35 /* Controllers */,
+				2E8171B223D0E3D5005BCA35 /* Gifs */,
+				2E8171B123D0E3B2005BCA35 /* Extensions */,
 				2E3277FE23CD8C6A0069A9DE /* AppDelegate.swift */,
 				2E32780023CD8C6A0069A9DE /* SceneDelegate.swift */,
-				2E32782823CDA1CB0069A9DE /* Model.swift */,
-				2E32780223CD8C6A0069A9DE /* ViewController.swift */,
-				2E23DB7E23D0D12400947F9E /* DetailViewController.swift */,
-				2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */,
-				2E32782023CD9F2F0069A9DE /* UserDefaults.swift */,
-				2E3D07C023CE5B2000E0C4FB /* horoscopes.gif */,
 				2E32780423CD8C6A0069A9DE /* Main.storyboard */,
 				2E32780723CD8C6C0069A9DE /* Assets.xcassets */,
 				2E32780923CD8C6C0069A9DE /* LaunchScreen.storyboard */,
@@ -127,6 +122,51 @@
 				2E32781723CD8C6D0069A9DE /* Info.plist */,
 			);
 			path = UserDefultsLabTests;
+			sourceTree = "<group>";
+		};
+		2E8171AE23D0E2CF005BCA35 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2E32782223CDA0D20069A9DE /* AppError.swift */,
+				2E32782623CDA19C0069A9DE /* NetworkHelper.swift */,
+				2E32782423CDA1630069A9DE /* HorscopeApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2E8171AF23D0E318005BCA35 /* Model&Structs */ = {
+			isa = PBXGroup;
+			children = (
+				2E32782823CDA1CB0069A9DE /* Model.swift */,
+				2E23DB7C23D0CC1400947F9E /* Horoscope.swift */,
+			);
+			path = "Model&Structs";
+			sourceTree = "<group>";
+		};
+		2E8171B023D0E355005BCA35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E32780223CD8C6A0069A9DE /* ViewController.swift */,
+				2E23DB7E23D0D12400947F9E /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E8171B123D0E3B2005BCA35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E32786123CE312B0069A9DE /* UIViewController+Extension.swift */,
+				2E3D07C223CE5C8900E0C4FB /* UIImage+GIFExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E8171B223D0E3D5005BCA35 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D07C023CE5B2000E0C4FB /* horoscopes.gif */,
+			);
+			path = Gifs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

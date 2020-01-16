@@ -11,12 +11,12 @@ import Foundation
 
 struct HoroscopeSign: Decodable {
     let sunsign: String
-    let horoscope: String
-    let meta: MetaData
+    var horoscope: String
+//    let meta: MetaData
 }
 
-struct MetaData: Decodable {
-    let mood: String
-    let keywords: String
-}
+//struct MetaData: Decodable {
+//    let mood: String
+//    let keywords: String
+//}
 
